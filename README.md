@@ -20,7 +20,7 @@ In the fouth part of the assignment, I changed the variable names so that they b
  - There were not many changes: 
      * Variable names had 3 dots before the name of the axis (e.g. tBodyAcc.mean...X). These were reduced to one dot (tBodyAcc.mean.X).
      * Several variables had a typo - double the word "Body". This was corrected.
- - After the corrections were made, the text file was returned in R and the new column names for "data" data frame were assigned.
+ - After the corrections were made, the text file was saved as "names1" and returned in R and the new column names for "data" data frame were assigned.
 
 The fifth part of the code groups the data by subject and activity using the group_by() function. The new dataset, called "data2" is then created, and it sumarizes the data by subject and activity, while the arithmetic mean for each variable is presented. 
  - The first column lists the subjects which took part in the experiment.
