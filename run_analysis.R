@@ -22,7 +22,7 @@ data<-mutate(data,activity=actlab[match(activity,actlab$activity_code),2])
 
 #part 4
 write.table(names(data),'names.txt',row.name=FALSE)
-# at this point changes were made separately in the .txt file
+# at this point changes were made separately in the .txt file which was renamed "names1.txt" upon saving
 names<-read.table('names1.txt')
 names<-names[2:69,1]
 colnames(data) <- make.names(names)
